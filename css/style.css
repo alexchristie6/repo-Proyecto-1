@@ -1,0 +1,379 @@
+/* Header y fondo */
+
+#fondo {
+    background-color: rgb(55, 174, 134);
+}
+
+header {
+    color: #000 ;
+    font-size: 100px;
+    font-family: Copperplate, Papyrus, fantasy;
+    text-align: center;
+}
+
+.top    {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.titular_index {
+    display: flex;
+    flex-direction: column;
+    margin-right: 383px;
+}
+
+.titular_clases {
+    display: flex;
+    flex-direction: column;
+    margin-right: 650px;
+}
+
+.titular_videos {
+    display: flex;
+    flex-direction: column;
+    margin-right: 655px;
+}
+
+.titular_nosotros {
+    display: flex;
+    flex-direction: column;
+    margin-right: 635px;
+}
+
+.titular_reservas {
+    display: flex;
+    flex-direction: column;
+    margin-right: 635px;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+}
+
+.logo_titular {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: left;
+}
+
+.lista-navegacion li{
+    color: white;
+    text-size-adjust: -400px;
+    list-style: none;
+    display: inline-block;
+    background-color: black;
+    margin: 20px;
+    padding: 10px;
+    border-color: #000;
+    border-radius: 3px;
+    border-width: 3px;
+    text-decoration: none;
+}
+
+.navegacion {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: medium;
+    font-weight: 200;
+}
+/* Cierre */
+
+/* Imagenes */
+
+.imagen_inicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 210px;
+    margin-right: 210px;
+    height: 500px;
+    width: 1000px;
+}
+
+.lokalani_image img{
+    border-style: double;
+    object-position: center;
+    object-fit: cover;
+    height: 400px;
+    width: 1418.5px;
+}
+
+.imagen-videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 210px;
+    margin-right: 210px;
+    height: 500px;
+    width: 1000px;
+}
+/* Cierre */
+
+/*Etiquetas Varias*/ 
+
+h1  {
+    color: #000 ;
+    font-size: 30px;
+    font-family: Copperplate, Papyrus, fantasy;
+    text-align: center;
+}
+
+h2  {
+    text-align: center;
+    font-size: medium;
+}
+
+h3  {
+    color: #000;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+h4  {
+    color: #000;
+    font-size: larger;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.parrafos {
+    color: #000;
+    font-size: larger;
+    font-weight: 200;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+p {
+    color: #000;
+    font-size: large;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+form {
+    color: #000;
+    font-size: medium;
+    text-align: center;
+}
+
+input {
+    color: #000;
+    font-size: medium;
+    text-align: center;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #000;
+    font-size: medium;
+}
+
+.datos_personales {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-size: medium;
+}
+
+.carrito {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-size: medium;
+}
+
+
+.iframe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+table {
+    color: #000;
+    font-size: medium;
+}
+
+.tables {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.botones-next-box {
+    text-align: center;
+}
+
+.botones-next li{
+    display: inline-block;
+    margin: 1px;
+}
+
+label {
+    color: #000;
+}
+
+.clases_equipo_texto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.links_reservas {
+    color: #000;
+    text-align: center;
+}
+
+.reservas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+/*Instructores Cards*/
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #000;
+    height: 350px;
+    width: 300px;
+    padding: 10px;
+    border-style: double;
+    border-width: 8px;
+    border-color: #239e83;
+}
+
+.card__image {
+    height: 160px;
+    width: 140px;
+}
+
+.card__part1 {
+    display: flex;
+    flex-direction: row;
+    color: azure;
+}
+
+.card__text {
+    color: azure;
+    font-family: "Brush Script MT", cursive;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card__data {
+    color: azure;
+    margin-top: 0px;
+}
+
+/*Cierre*/
+
+.grid {
+    display: grid;
+    border: solid 1px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    .grid {
+    display: grid;
+    justify-items: center;
+    border: solid 1px;
+    width: 480px;
+    }
+
+/**** ACA NO SE Q HACER ****/
+    .imagen_inicio {
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 200px;
+    }
+
+/**** ACA NO SE Q HACER ****/
+    .iframe {
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 200px;
+        height: 700px;
+        width: 0px;
+    }
+    
+    .imagen-videos {
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+/**** ACA NO SE Q HACER ****/
+    .lokalani_image {
+        max-width: 100%;
+        margin-right: 200px;
+        justify-content: center;
+    }
+
+    .titular_index {
+        margin-right: 155px;
+        margin-left: 0px;
+    }
+
+    .titular_clases {
+        margin-right: 163px;
+        margin-left: 120px;
+    }
+
+    .titular_videos {
+        margin-right: 170px;
+        margin-left: 120px;
+    }
+
+    .titular_nosotros {
+        margin-right: 160px;
+        margin-left: 85px;
+    }
+
+    .titular_reservas {
+        margin-right: 155px;
+        margin-left: 90px;
+    }
+
+    .tables {
+        flex-direction: column;
+    }
+}
+
+
+
+
