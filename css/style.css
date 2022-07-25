@@ -74,8 +74,9 @@ header {
 }
 
 .navegacion {
+    display: flex;
+    justify-content: center;
     color: rgb(255, 255, 255);
-    text-align: center;
     font-size: medium;
     font-weight: 200;
 }
@@ -84,35 +85,24 @@ header {
 /* Imagenes */
 
 .imagen_inicio {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    width: 100%;
     margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 210px;
-    margin-right: 210px;
-    height: 500px;
-    width: 1000px;
+    margin-bottom: 15px;
 }
 
 .lokalani_image img{
     border-style: double;
     object-position: center;
     object-fit: cover;
-    height: 400px;
-    width: 1418.5px;
+    width: 100%;
 }
 
 .imagen-videos {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 100px;
-    margin-left: 210px;
-    margin-right: 210px;
-    height: 500px;
-    width: 1000px;
+    width: 80%;
+    margin-left: 150px;
 }
 /* Cierre */
 
@@ -154,7 +144,7 @@ h4  {
 
 p {
     color: #000;
-    font-size: large;
+    font-size: larger;
     font-weight: 200;
     text-align: center;
 }
@@ -251,6 +241,7 @@ label {
     justify-content: space-evenly;
     gap: 30px;
     margin-bottom: 10px;
+    padding: 0px;
 }
 
 /*Instructores Cards*/
@@ -306,71 +297,82 @@ label {
     border: solid 1px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 480px) {
+/*** MEDIA QUERIE ***/
+@media screen and (max-width: 480px) {
     .grid {
     display: grid;
     justify-items: center;
     border: solid 1px;
-    width: 480px;
     }
 
-/**** ACA NO SE Q HACER ****/
-    .imagen_inicio {
-        max-width: 100%;
-        margin-left: 10px;
-        margin-right: 200px;
-    }
-
-/**** ACA NO SE Q HACER ****/
     .iframe {
         flex-direction: column;
-        margin-top: 50px;
-        margin-left: 10px;
-        margin-right: 200px;
-        height: 700px;
-        width: 0px;
+        justify-content: center;
+        margin-left: 8px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 15px;
     }
     
     .imagen-videos {
-        max-width: 100%;
-        margin-left: 10px;
-        margin-right: 10px;
+        width: 100%;
+        margin-left: 0px;
     }
 
-/**** ACA NO SE Q HACER ****/
-    .lokalani_image {
-        max-width: 100%;
-        margin-right: 200px;
-        justify-content: center;
+    iframe {
+        width: 431px;
+        height: 242px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     .titular_index {
-        margin-right: 155px;
+        margin-right: 60px;
         margin-left: 0px;
     }
 
     .titular_clases {
-        margin-right: 163px;
-        margin-left: 120px;
+        margin-right: 203px;
+        margin-left: 100px;
     }
 
     .titular_videos {
-        margin-right: 170px;
-        margin-left: 120px;
+        margin-right: 195px;
+        margin-left: 95px;
     }
 
     .titular_nosotros {
-        margin-right: 160px;
-        margin-left: 85px;
+        margin-right: 170px;
+        margin-left: 75px;
     }
 
     .titular_reservas {
-        margin-right: 155px;
-        margin-left: 90px;
+        margin-right: 170px;
+        margin-left: 75px;
     }
 
     .tables {
         flex-direction: column;
+        width: 80%;
+    }
+
+    .parrafos {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .navegacion {
+        margin-right: 45px;
+        margin-left: 0px;
+    }
+
+    .mapa {
+        margin-left: 0px;
+    }
+
+    .reservas {
+        width: auto;
+        gap: 0px;
     }
 }
 
