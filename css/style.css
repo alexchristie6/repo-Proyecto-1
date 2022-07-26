@@ -290,14 +290,72 @@ label {
     margin-top: 0px;
 }
 
-/*Cierre*/
+/*** Cierre ***/
+
+
+/*** Grid extra ***/
+.grids {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows:  100% 500% 100%;
+    grid-template-areas: 
+        "publicidad1 titulo publicidad2"
+        "chat plataforma channels"
+        "chat privado channels";
+
+    border: solid 1px;
+    text-align: center;
+
+    }
+    
+    .border {
+        border: 1px solid black
+    }
+
+    section#publicidad1 {
+        grid-area: publicidad1;
+        background-color: rgb(146, 31, 2);
+    }
+
+    header#plat {
+        grid-area: titulo;
+        background-color: lightgray;
+    }
+
+    section#publicidad2 {
+        grid-area: publicidad2;
+        background-color: rgb(146, 31, 2)
+    }
+
+    aside#chat {
+        grid-area: chat;
+        background-color: lightgray;
+    }
+
+    section#plataforma {
+        grid-area: plataforma;
+    }
+
+    aside#channels {
+        grid-area: channels;
+        background-color: lightgray;
+    }
+
+    footer#plat {
+        grid-area: privado;
+        background-color: lightgrey;
+    }
+ /*** Grid extra ***/
+
+
+/*** Grids ***/
 
 .grid {
     display: grid;
     border: solid 1px;
 }
 
-/*** MEDIA QUERIE ***/
+/*** MEDIA QUERY ***/
 @media screen and (max-width: 480px) {
     .grid {
     display: grid;
