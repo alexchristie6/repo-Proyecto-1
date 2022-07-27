@@ -1,7 +1,7 @@
 /* Header y fondo */
 
 #fondo {
-    background-color: rgb(55, 174, 134);
+    background-image:linear-gradient(to bottom, rgb(55, 174, 134),rgb(141, 247, 212)) 
 }
 
 header {
@@ -244,6 +244,10 @@ label {
     padding: 0px;
 }
 
+a {
+    color: white;
+}
+
 /*Instructores Cards*/
 
 .cards {
@@ -297,7 +301,7 @@ label {
 .grids {
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    grid-template-rows:  100% 500% 100%;
+    grid-template-rows:  80% 150% 80%;
     grid-template-areas: 
         "publicidad1 titulo publicidad2"
         "chat plataforma channels"
@@ -319,7 +323,19 @@ label {
 
     header#plat {
         grid-area: titulo;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
         background-color: lightgray;
+        font-size: x-large;
+        color: #000;
+    }
+
+    header#plat a:hover {
+        color: purple;
+        font-size: xx-large;
+        text-decoration: underline;
     }
 
     section#publicidad2 {
@@ -333,7 +349,23 @@ label {
     }
 
     section#plataforma {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         grid-area: plataforma;
+        background-image: linear-gradient(to bottom,green, purple);
+    }
+
+    .animacion {
+        height: 300px;
+        width: 300px;
+        background-image: radial-gradient(red, yellow);
+        border: solid 2px;
+        transition: 4s;
+    }
+
+    .animacion:hover {
+        transform: rotate(360deg);
     }
 
     aside#channels {
